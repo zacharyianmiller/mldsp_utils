@@ -10,7 +10,7 @@
           <FILE id="rJWdVI" name="math.h" compile="0" resource="0" file="src/modules/dsp/math.h"/>
         </GROUP>
         <GROUP id="{5FB254A8-03C8-2611-86BB-A33B0A218A60}" name="gui">
-          <FILE id="L1zzre" name="gui.h" compile="0" resource="0" file="gui.h"/>
+          <FILE id="fc3gGy" name="gui.h" compile="0" resource="0" file="src/modules/gui/gui.h"/>
         </GROUP>
       </GROUP>
     </GROUP>
