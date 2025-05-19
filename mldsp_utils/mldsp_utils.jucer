@@ -6,8 +6,11 @@
     <GROUP id="{457B0789-84FA-D26A-54BD-8F7CA62BEA3C}" name="Source">
       <GROUP id="{1816BFAA-32C2-F8E7-89D5-233864AFDA21}" name="modules">
         <GROUP id="{C2702A3E-4C8F-CD4D-E671-62B527162CF5}" name="dsp">
-          <FILE id="BLDpcH" name="fastmath.h" compile="0" resource="0" file="Source/modules/dsp/fastmath.h"/>
-          <FILE id="OJqa4I" name="math.h" compile="0" resource="0" file="Source/modules/dsp/math.h"/>
+          <FILE id="Fy0sPy" name="fastmath.h" compile="0" resource="0" file="src/modules/dsp/fastmath.h"/>
+          <FILE id="rJWdVI" name="math.h" compile="0" resource="0" file="src/modules/dsp/math.h"/>
+        </GROUP>
+        <GROUP id="{5FB254A8-03C8-2611-86BB-A33B0A218A60}" name="gui">
+          <FILE id="L1zzre" name="gui.h" compile="0" resource="0" file="gui.h"/>
         </GROUP>
       </GROUP>
     </GROUP>
