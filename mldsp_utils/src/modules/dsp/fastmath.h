@@ -12,7 +12,6 @@
 
 namespace mldsp
 {
-
 namespace fastmath
 {
 
@@ -52,5 +51,4 @@ constexpr T cosh_lambert (const T x) noexcept { return 1.0 / tanh_lambert (x); }
 // ==============================================================================
 
 }; // namespace fastmath
-
 }; // namespace mldsp

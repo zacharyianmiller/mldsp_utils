@@ -12,7 +12,6 @@
 
 namespace mldsp
 {
-
 namespace math
 {
 
@@ -30,5 +29,4 @@ constexpr T linearToMagnitude (const T x) noexcept { return 20.0 * std::log10(x)
 // ==============================================================================
 
 }; // namespace fastmath
-
 }; // namespace mldsp
