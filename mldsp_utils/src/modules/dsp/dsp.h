@@ -35,7 +35,7 @@ struct Index
     inline void incrementAndWrap (const int amt,
                                   const size_t bounds)
     {
-        pos = ++pos % bounds;
+        pos = (pos + amt) % bounds;
     }
     
     /// -----------------------------

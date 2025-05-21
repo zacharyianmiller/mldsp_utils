@@ -12,6 +12,7 @@
           <FILE id="fc3gGy" name="gui.h" compile="0" resource="0" file="src/modules/gui/gui.h"/>
         </GROUP>
         <GROUP id="{99B4E2FA-0707-7C8E-1457-F2736D9ABF3F}" name="math">
+          <FILE id="hBoWYV" name="constants.h" compile="0" resource="0" file="src/modules/math/constants.h"/>
           <FILE id="Fy0sPy" name="fastmath.h" compile="0" resource="0" file="src/modules/dsp/fastmath.h"/>
           <FILE id="rJWdVI" name="math.h" compile="0" resource="0" file="src/modules/dsp/math.h"/>
         </GROUP>
