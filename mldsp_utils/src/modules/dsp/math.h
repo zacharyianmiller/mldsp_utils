@@ -49,6 +49,7 @@ constexpr float RK4 (const T x, const T x1,
     return y1 + (k1 / 6.0) + (k2 / 3.0) + (k3 / 3.0) + (k4 / 6.0);
 }
 
+// Langevin function
 template <typename T>
 constexpr T langevin (const T x, const float tolerance)
 {
@@ -56,6 +57,18 @@ constexpr T langevin (const T x, const float tolerance)
         return mldsp::fastmath::cosh_pade (x) - (1.f / x);
     else
         return x * mldsp::fastmath::OneThird<float>().get();
+}
+
+// First derivative (L') of the Langevin function
+template <typename T>
+constexpr T dlangevin (const T x, const float tolerance)
+{
+    float cosh_approx = mldsp::fastmath::cosh_pade(x);
+    
+    if (std::abs(x) > tolerance)
+        return (1.f / (x*x)) - cosh_approx*cosh_approx + 1.f;
+    else
+        return mldsp::fastmath::OneThird<float>().get();
 }
 
 // ==============================================================================
